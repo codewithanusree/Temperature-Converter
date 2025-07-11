@@ -1,0 +1,37 @@
+body{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:150px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://images.pexels.com/photos/28977567/pexels-photo-28977567.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    border: 1px solid black;
+    padding: 10px;
+     display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecfae5a4;
+    color: black;
+}
+form label{
+    display: inline-block;
+    width: 120px;
+}
+form input,form select{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+}
+button{
+    background-color: #FFCC00;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
